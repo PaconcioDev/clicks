@@ -1,5 +1,52 @@
+:root {
+  --principal: #181818;
+  --btn: #a10035;
+  --border-btn: #b1033d;
+  --title: #fec260;
+  --card: #2eb086;
+  --border-card: #2fbd90;
+  --light-card: #5fd387;
+  --light-border-card: #63dd8e;
+}
+
+body {
+  background-color: var(--principal);
+  font-family: monospace;
+}
+
 section {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 25vh;
+}
+
+h1 {
+  color: var(--title);
+  font-size: 48px;
+}
+
+p {
+  padding: 8px 24px;
+  background-color: var(--card);
+  border: 4px solid var(--border-card);
+  border-radius: 25px;
+  margin-bottom: 36px;
+  font-weight: bold;
+  font-size: 24px;
+  font-family: monospace;
+  color: var(--principal);
+}
+
+button {
+  padding: 12px;
+  border-radius: 12px;
+  background-color: var(--btn);
+  border: 4px solid var(--border-btn);
+  width: 156px;
+  font-size: 24px;
+  font-weight: bolder;
+  color: var(--principal);
+  cursor: pointer;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
